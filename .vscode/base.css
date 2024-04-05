@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+
+    display: flex;
+    margin: 0 auto;
+    background-color: #92A0BF;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: 	#92A0BF;
+    padding: 10px 20px 0px;
+}
+.menu ul a {
+
+    color: #ffffff;
+    text-decoration: none;
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    min-height: 150px;
+}
+.content {
+    display: flex;
+    flex-direction: row;                                                                                                        ;
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+    padding: 20px;
+}
+.normal {
+    display: flex;
+    flex-direction: column;                                                                                               ;
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+    padding: 20px;
+    align-items:center;
+}
+.footer {
+    background-color: #021e31;
+    min-height: 150px;
+}
